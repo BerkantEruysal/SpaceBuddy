@@ -7,8 +7,10 @@
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
+    "build": "echo \"Build complete\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon main.js"
+    "dev": "nodemon main.js",
+    "start": "node main.js"
   },
   "dependencies": {
     "ws": "^8.18.3"
