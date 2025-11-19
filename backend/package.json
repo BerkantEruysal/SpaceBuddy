@@ -1,0 +1,19 @@
+{
+  "name": "spacebuddybackend",
+  "version": "1.0.0",
+  "description": "Simple WebSocket relay server for SpaceBuddy",
+  "license": "ISC",
+  "author": "arwen",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
